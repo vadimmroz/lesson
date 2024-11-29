@@ -1,0 +1,9 @@
+.footer{
+    @apply bg-green-60 p-36 mt-5 transition-all;
+    button{
+        @apply mt-0.5 bg-white-90 px-4 py-2 rounded border transition-all;
+        &:hover{
+            @apply bg-white-99
+        }
+    }
+}
